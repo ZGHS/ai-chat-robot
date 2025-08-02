@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: ai-chat-robot
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        model: qwen3:1.7b
